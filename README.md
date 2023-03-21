@@ -1,14 +1,6 @@
 # Frontend
 한성대학교 멋쟁이사자처럼 FE 트랙
-# practice
-> 과제 제출 연습용 Repository
 
-### 과제 업로드 방법
-**운영진ver**
-
-1. 자신의 세션을 맡은 주의 과제를 Issue에 올린다.
-2. 마감 시간에 Pull Request를 확인하여 과제 현황을 확인한다.
-3. Wiki에 들어가 아기사자의 과제 현황을 체크한다
 
 **아기사자ver**
 1. 자신의 local에서 [N주차]에 자신의 이름 폴더를 만든다
@@ -23,9 +15,9 @@ ex)김멋사
 5. 과제 끝~!
 
 ## 1팀
-멘토: **이현승**
+멘토: **김지원**
 
-멘티: **김지원**, **이자민**, **양종욱**
+멘티: **김지원**, **이자민**
 
 <div>
   <a href="https://github.com/jaminleee">
@@ -40,9 +32,43 @@ ex)김멋사
 </div>
 
 ## 2팀
-멘토: **이현승**
+멘토: **이서연**
 
-멘티: **김지원**, **이자민**, **양종욱**
+멘티: **김지원**, **이자민**
+<div>
+  <a href="https://github.com/JongukYang">
+    <img src="https://avatars.githubusercontent.com/u/73643657?v=4" width="100" style="max-width: 100%;">
+  </a>
+ <a href="https://github.com/jaminleee">
+    <img src="https://avatars.githubusercontent.com/u/91969458?v=4" width="100" style="max-width: 100%;">
+  </a>
+ <a href="https://github.com/kimgwon">
+    <img src="https://avatars.githubusercontent.com/u/92065911?v=4" width="100" style="max-width: 100%;">
+  </a>
+</div>
+
+
+## 3팀
+멘토: **이장혁**
+
+멘티: **김지원**, **이자민**
+<div>
+  <a href="https://github.com/JongukYang">
+    <img src="https://avatars.githubusercontent.com/u/73643657?v=4" width="100" style="max-width: 100%;">
+  </a>
+ <a href="https://github.com/jaminleee">
+    <img src="https://avatars.githubusercontent.com/u/91969458?v=4" width="100" style="max-width: 100%;">
+  </a>
+ <a href="https://github.com/kimgwon">
+    <img src="https://avatars.githubusercontent.com/u/92065911?v=4" width="100" style="max-width: 100%;">
+  </a>
+</div>
+
+
+## 4팀
+멘토: **임승빈**
+
+멘티: **김지원**, **이자민**
 <div>
   <a href="https://github.com/JongukYang">
     <img src="https://avatars.githubusercontent.com/u/73643657?v=4" width="100" style="max-width: 100%;">
