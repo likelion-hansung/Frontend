@@ -27,9 +27,6 @@ ex)김멋사
  <a href="https://github.com/kimgwon">
     <img src="https://avatars.githubusercontent.com/u/92065911?v=4" width="100" style="max-width: 100%;">
   </a>
-  <a href="https://github.com/JongukYang">
-    <img src="https://avatars.githubusercontent.com/u/73643657?v=4" width="100" style="max-width: 100%;">
-  </a>
 </div>
 
 ## 2팀
@@ -42,9 +39,6 @@ ex)김멋사
   </a>
  <a href="https://github.com/jaminleee">
     <img src="https://avatars.githubusercontent.com/u/91969458?v=4" width="100" style="max-width: 100%;">
-  </a>
- <a href="https://github.com/kimgwon">
-    <img src="https://avatars.githubusercontent.com/u/92065911?v=4" width="100" style="max-width: 100%;">
   </a>
 </div>
 
@@ -60,9 +54,6 @@ ex)김멋사
  <a href="https://github.com/jaminleee">
     <img src="https://avatars.githubusercontent.com/u/91969458?v=4" width="100" style="max-width: 100%;">
   </a>
- <a href="https://github.com/kimgwon">
-    <img src="https://avatars.githubusercontent.com/u/92065911?v=4" width="100" style="max-width: 100%;">
-  </a>
 </div>
 
 
@@ -76,8 +67,5 @@ ex)김멋사
   </a>
  <a href="https://github.com/jaminleee">
     <img src="https://avatars.githubusercontent.com/u/91969458?v=4" width="100" style="max-width: 100%;">
-  </a>
- <a href="https://github.com/kimgwon">
-    <img src="https://avatars.githubusercontent.com/u/92065911?v=4" width="100" style="max-width: 100%;">
   </a>
 </div>
