@@ -55,8 +55,8 @@ ex)김멋사
   <a href="https://github.com/drimh">
     <img src="https://avatars.githubusercontent.com/u/107299318?v=4" width="100" style="max-width: 100%;">
   </a>
- <a href="https://github.com/jaminleee">
-    <img src="https://avatars.githubusercontent.com/u/91969458?v=4" width="100" style="max-width: 100%;">
+ <a href="https://github.com/Sooah-Lee">
+    <img src="https://avatars.githubusercontent.com/u/129499979?v=4" width="100" style="max-width: 100%;">
   </a>
 </div>
 
