@@ -22,14 +22,14 @@ ex)김멋사
 ## 1팀
 멘토: **김지원**
 
-멘티: **김지원**, **이자민**
+멘티: **양은서**, **이세은**
 
 <div>
-  <a href="https://github.com/jaminleee">
-    <img src="https://avatars.githubusercontent.com/u/91969458?v=4" width="100" style="max-width: 100%;">
+  <a href="https://github.com/sengooooo">
+    <img src="https://avatars.githubusercontent.com/u/127099876?v=4" width="100" style="max-width: 100%;">
   </a>
- <a href="https://github.com/kimgwon">
-    <img src="https://avatars.githubusercontent.com/u/92065911?v=4" width="100" style="max-width: 100%;">
+ <a href="https://github.com/sheepyis">
+    <img src="https://avatars.githubusercontent.com/u/113487989?v=4" width="100" style="max-width: 100%;">
   </a>
 </div>
 
