@@ -50,7 +50,7 @@ ex)김멋사
 ## 3팀
 멘토: **이장혁**
 
-멘티: **김지원**, **이자민**
+멘티: **신승혜**, **이수아**
 <div>
   <a href="https://github.com/JongukYang">
     <img src="https://avatars.githubusercontent.com/u/73643657?v=4" width="100" style="max-width: 100%;">
