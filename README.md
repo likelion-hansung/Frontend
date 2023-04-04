@@ -64,12 +64,12 @@ ex)김멋사
 ## 4팀
 멘토: **임승빈**
 
-멘티: **김지원**, **이자민**
+멘티: **김소담**, **박제준**
 <div>
-  <a href="https://github.com/JongukYang">
-    <img src="https://avatars.githubusercontent.com/u/73643657?v=4" width="100" style="max-width: 100%;">
+  <a href="https://github.com/1123ksd1">
+    <img src="https://avatars.githubusercontent.com/u/129500149?v=4" width="100" style="max-width: 100%;">
   </a>
- <a href="https://github.com/jaminleee">
-    <img src="https://avatars.githubusercontent.com/u/91969458?v=4" width="100" style="max-width: 100%;">
+ <a href="https://github.com/Jun279">
+    <img src="https://avatars.githubusercontent.com/u/122501996?v=4" width="100" style="max-width: 100%;">
   </a>
 </div>
