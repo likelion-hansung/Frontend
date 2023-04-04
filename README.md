@@ -52,8 +52,8 @@ ex)김멋사
 
 멘티: **신승혜**, **이수아**
 <div>
-  <a href="https://github.com/JongukYang">
-    <img src="https://avatars.githubusercontent.com/u/73643657?v=4" width="100" style="max-width: 100%;">
+  <a href="https://github.com/drimh">
+    <img src="https://avatars.githubusercontent.com/u/107299318?v=4" width="100" style="max-width: 100%;">
   </a>
  <a href="https://github.com/jaminleee">
     <img src="https://avatars.githubusercontent.com/u/91969458?v=4" width="100" style="max-width: 100%;">
