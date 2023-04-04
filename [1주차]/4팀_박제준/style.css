@@ -1,3 +1,98 @@
-p{
-    font-size: 38px;
+*{
+    box-sizing: border-box;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Stylish', sans-serif;
+}
+
+/* header */
+.hd {
+    position: relative;
+    height: 300px;
+    text-align: center;
+}
+
+.hd-title {
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 130px;
+}
+
+.hd-content {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 0;
+}
+
+.hd:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url("./lion.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hd .container {
+    position: relative;
+    color: black;
+}
+
+.name .nickname {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.name .contacts {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0; 
+
+}
+
+.sec {
+    background-color: antiquewhite;
+}
+
+.sec .resolve {
+    font-size: 20px;
+}
+
+.sec .introduce {
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 30px;
+}
+
+.sec .feature {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.sns-pictogram {
+    text-align: center;
+    background-color: orange;
+    font-size: 38px;
+
+}
+
+
+
