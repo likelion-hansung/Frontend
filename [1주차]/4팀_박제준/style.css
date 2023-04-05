@@ -11,7 +11,7 @@ body{
 /* header */
 .hd {
     position: relative;
-    height: 300px;
+    height: 270px;
     text-align: center;
 }
 
@@ -90,7 +90,7 @@ body{
 .sns-pictogram {
     text-align: center;
     background-color: orange;
-    font-size: 38px;
+    font-size: 42px;
 
 }
 
