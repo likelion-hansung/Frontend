@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script defer src="imageSlide.js"></script>
+    <script defer src="moveSection.js"></script>
+</head>
+<body>
+    <header>
+        <img id="likelion" src="photo/멋사.png">
+        <nav>
+            <ul>
+                <li><a href = "#about_me" class="a">About Me</a></li>
+                <li><a href = "#like" class="a">What I Like</a></li>
+                <li><a href = "#contact" class="a">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="about_me">
+        
+        <div class="slide-container">
+            <div class="slide-album">
+                <div class="slide-images">
+                    <img src="photo/lion.png" width="500" height="500" >
+                    <img src="photo/me2.jpg" width="600" height="500" alt="내사진2">
+                    <img src="photo/me3.jpg" width="600" height="500" alt="내사진3">
+                </div>
+                <button class="btn-prev">◀</button>
+                <button class="btn-next">▶</button>
+            </div>
+        </div>
+       
+        <div id="introduction">
+            <p>안녕하세요:&#41;</p>
+            <p>저는 <span class="intro">정예빈</span>입니다 !</p>
+            <p>2001년생이고, <span class="intro">경기도 파주시</span>에서 거주하고 있습니다.</p>
+            <p>현재 <span class="intro">한성대학교 컴퓨터공학부 2학년</span>에 재학중이에요.</p>
+            <p><span class="intro">'사회적으로 선한 영향력을 주는 프로그래머'</span>라는 목표를 가진 채</p>
+            <p>열심히 공부하며 노력하는 중입니다!</p>
+            <p id="this"><a href="#like">What I Like</a></p>
+            <p>취미 : <span class="intro">공연보기, 음악감상, 춤추기, 노래부르기, 독서</span> 등등</p>
+            <p>좋아하는 음악 : <span class="intro">R&B음악, 새벽에 듣기 좋으면서 적당히 신나는 음악</span></p>
+            <p>좋아하는 음식: <span class="intro">가리는 거 없음</span></p>
+            <p>좋아하는 책 : <span class="intro">SF소설, 추리소설, 천문학, 동물학</span></p>
+        
+        </div>
+        <div>
+        </div>
+    </section>
+
+    <section class="like" id="like">
+        <div id="like1">
+            <P class="interest">#공연보기</P>
+            <img class ="photo" src="photo/crush.gif">
+            <img class ="photo" src="photo/dancer.gif">
+            <img class ="photo" src="photo/musical.jpg">
+            <p class="interest">#음악</p>
+            <img class ="photo" src="photo/crushh.jpg">
+            <img class ="photo" src="photo/dpr.jpg">
+            <img class ="photo" src="photo/dean.jpg">    
+        </div>
+        <div id="like2">
+            <p class="interest">#음식</p>
+            <img class ="photo" src="photo/salmon.jpg">
+            <img class ="photo" src="photo/mintchoco.jpg">
+            <img class ="photo" src="photo/rice.jpg">    
+            <p class="interest">#독서</p>
+            <img class ="photo" src="photo/gyobo.jpg">
+            <img class ="photo" src="photo/note.jpg">
+            <img class ="photo" src="photo/book.png">
+
+        </div>
+    </section>
+    <footer>
+        <p id="contact">CONTACT</p>
+        <ul class="f_icon">
+            <li id="icon1"><img src="photo/phone.png" id="phone"> <span id="phoneN">010-7732-0589</span></li>
+            <li id="icon2"><img src="photo/instagram.png" id="instagram">ybeee_1027</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
