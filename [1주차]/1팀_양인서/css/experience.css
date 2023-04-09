@@ -1,0 +1,128 @@
+body{
+    background:linear-gradient(45deg, #f6d242, #FF52E5);
+}
+
+nav{
+    position:absolute;
+    top:10%;
+    left:50%;
+    margin-left: -200px;
+    font-style:italic;
+    font-size:20px;
+    font-family: 'Lobster', cursive;
+}
+
+li{
+    list-style-type:none;
+    display:inline-block;
+}
+
+a{
+    padding: 8px;
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{
+    color:purple;
+}
+
+.experience1{
+    position:absolute;
+    width:300px;
+    height:300px;
+    border:4px solid white;
+    top:20%;
+    left:17%;
+    border-radius:30%;
+    box-shadow: 5px 10px darkorange;
+}
+
+.experience2{
+    position:absolute;
+    width:300px;
+    height:300px;
+    border:4px solid white;
+    top:20%;
+    left:37%;
+    border-radius:30%;
+    box-shadow: 5px 10px darkorange;
+}
+
+.experience3{
+    position:absolute;
+    width:300px;
+    height:300px;
+    border:4px solid white;
+    top:20%;
+    left:57%;
+    border-radius:30%;
+    box-shadow: 5px 10px darkorange;
+}
+
+.experience4{
+    position:absolute;
+    width:300px;
+    height:300px;
+    border:4px solid white;
+    top:40%;
+    left:27%;
+    border-radius:30%;
+    box-shadow: 5px 10px darkorange;
+}
+
+.experience5{
+    position:absolute;
+    width:300px;
+    height:300px;
+    border:4px solid white;
+    top:40%;
+    left:47%;
+    border-radius:30%;
+    box-shadow: 5px 10px darkorange;
+}
+
+.experience6{
+    position:absolute;
+    width:300px;
+    height:300px;
+    border:4px solid white;
+    top:40%;
+    left:67%;
+    border-radius:30%;
+    box-shadow: 5px 10px darkorange;
+}
+
+.experiencetitle1{
+    top:78%;
+    left:10%;
+    position:absolute;
+    color:white;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size:30px;
+}
+
+.experiencetitle2{
+    top:78%;
+    left:55%;
+    position:absolute;
+    color:white;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size:30px;
+}
+
+footer{
+    width:100%;
+    height:50px;
+    bottom:0px;
+    position:absolute;
+    text-align:center;
+    color:white;
+    font-family: 'Lobster', cursive;
+}
+
+hr{
+    height:1px;
+    width:90%;
+    background-color:white;
+}
