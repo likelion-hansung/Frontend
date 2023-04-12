@@ -1,0 +1,94 @@
+
+:root {
+    color:white;
+    background:  #ECECEC;
+    }
+    
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .home{
+        height:600px;
+        background-image: url("time.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center ;
+        overflow: hidden;
+    }
+    .home-description{
+        height: 600px;
+        background-color:rgba(4,7,32,0.7) ;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        justify-content: flex-end;
+    
+        
+        
+    }
+    
+    .home-text{
+        width: 60%;
+    }
+    .home-text p{
+        width: 70%;
+    }
+     h2 {
+        height: 150px;
+            color: black;
+        display: flex;
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: 800;
+        align-items:center;
+    
+        
+    }
+    .home-header{
+    
+        margin-top: 120px;
+        padding-right: 50px;
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .main{
+        width: 90%;
+        margin: auto;
+    }
+    .about{
+    
+        overflow: hidden;
+        
+    }
+    
+    .개인시간표{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+
+        
+    
+    }
+    
+    h3{
+        color: black;
+    }
+
+    h1{
+        color: azure;
+    }
+
+    h4{
+        color: blue;
+        size: 3px;
+    }
+
+   
