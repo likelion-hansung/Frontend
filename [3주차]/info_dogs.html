@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반려동물 정보 - 강아지</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet"></head>
+    <script defer src = "event2.js"></script>
+    <script defer src = "event.js"></script>
+
+</head>
+<body>
+    <header>
+        <div id="login">LOGIN</div>
+        <form class="idForm">
+            <input maxlength="15" id = "input_id" placeholder="id를 입력하세요">
+        </form>
+        <p id="greeting" class="hidden"></p>
+        <hr>
+        <div id="head">
+            <img class="icon" width src = "photo/animal_icon.jpg" alt="동물 발바닥 아이콘"> 
+            <p id="siteName">반려동물 정보 사이트</p>
+            <img class="icon" src = "photo/animal_icon.jpg" alt="동물 발바닥 아이콘">     
+        </div>
+    </header>
+    <nav>
+        <div class="navContainer">
+            <div id="home"><strong>홈</strong></div>
+            <div id ="pets"><strong>반려동물</strong></div>
+            <div><strong>이슈</strong></div>
+            <div><strong>관련 정책</strong></div>
+        </div>
+    </nav>
+    <hr>
+    <div id="nav_pets">
+        <ul id="li_pets">
+            <li>강아지</li>
+            <li>고양이</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="search">
+        <form>
+            <input type="text" size="40">
+            <button>검색 </button>
+        </form>
+    </div>
+    <div class = "infoDogs">
+        <ul class="info1">
+            <li id="golden">
+                <h2>골든 리트리버</h2>
+                <img class ="img_dog" src = "photo/golden.jpg" alt = "골든 리트리버">
+            </li>
+            <li>
+                <h2>닥스훈트</h2>
+                <img class ="img_dog" src = "photo/docs.jpg" alt = "닥스훈트">
+            </li>
+            <li>
+                <h2>비숑 프리제</h2>
+                <img class ="img_dog" src = "photo/bichon.jpg" alt = "비숑 프리제">    
+            </li>
+        </ul>
+    </div>
+    <div class="hidden" id="info_golden">
+        <p>원산지: 영국</p>
+        <p>성격 : 친밀, 애정이 깊음, 얌전한 성격</p>
+        <p>추천 환경: 단독주택</p>
+        <form class="closeBtn">
+            <button>close</button>
+        </form>
+    </div>
+
+
+
+
+</body>
+</html>
