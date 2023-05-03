@@ -1,0 +1,42 @@
+p{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:40px;
+    text-align:center;
+}
+
+.search{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.search>input{
+    width:500px;
+    text-align:center;
+}
+
+.search>button{
+    width:50px;
+}
+
+.plan{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+    margin-left:4%;
+}
+
+.plan>hr{
+    margin-top:2%;
+    margin-left:1%;
+    width:50%;
+    height:4px;
+    background-color:darkblue;
+}
+
+.plan>.person1{
+    margin-top:5%;
+}
+
+.plan>.person2{
+    margin-top:5%;
+}
