@@ -1,0 +1,42 @@
+p{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:40px;
+    text-align:center;
+}
+
+.follow{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+    text-align:center;
+}
+
+.follow>.follow1{
+    margin-left:30%;
+    float:left;
+}
+
+.follow>.follow2{
+    margin-left:40%;
+}
+
+.follow>hr{
+    margin-top:2%;
+    width:95%;
+    height:4px;
+    background-color:darkblue;
+}
+
+.plan{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+    margin-left:4%;
+}
+
+.plan>.person1{
+    margin-top:5%;
+}
+
+.plan>.person2{
+    margin-top:5%;
+}
+
