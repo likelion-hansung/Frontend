@@ -70,6 +70,16 @@ button {
     text-align: center;
 }
 
+menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+menu button {
+    margin: 0 5px;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+}
 
 .button button {
     background-color: rgba(27, 120, 183, 0.5);
