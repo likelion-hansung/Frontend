@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>seoul</title>
+    <link rel="stylesheet" href="./pageStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>I SEOUL U</h1>
+    <textarea rows="10" cols="50"
+        placeholder="롤링페이퍼 작성 시 클릭하세요👋                     저장을 누르면 다른 사람들에게 공유가 됩니다😝"></textarea>
+    <br>
+    <button onclick="save()">저장</button>
+    <br><br>
+    <div id="saved-memos"></div>
+
+    <script>
+        // 저장된 메모들을 담을 배열
+        let memos = [];
+
+        // 저장 버튼 클릭 시 동작하는 함수
+        function save() {
+            let memo = document.querySelector("textarea").value;
+            memos.push(memo);
+            document.querySelector("textarea").value = "";
+            displayMemos();
+        }
+
+        // 지우기 버튼 클릭 시 동작하는 함수
+        function clear() {
+            document.querySelector("textarea").value = "";
+        }
+
+        // 저장된 메모들을 화면에 표시하는 함수
+        function displayMemos() {
+            let savedMemos = document.querySelector("#saved-memos");
+            savedMemos.innerHTML = "";
+            for (let i = 0; i < memos.length; i++) {
+                let memoElement = document.createElement("div");
+                memoElement.innerHTML = memos[i];
+                savedMemos.appendChild(memoElement);
+            }
+        }
+    </script>
+</body>
+
+</html>
