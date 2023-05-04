@@ -1,0 +1,25 @@
+#sengoo {
+    text-align: center;
+    color: #d7b7e8;
+    font-size: 35px;
+}
+
+nav{
+    text-align: center;
+    font-size: 15px;
+}
+
+h3{
+    text-align: center;
+    color: #f5a7a7;
+    font-size: 25px;
+}
+
+body{
+    font-family: 'Sunflower', sans-serif;
+    background-color: beige;
+}
+
+footer {
+    font-size: 12px;
+}
