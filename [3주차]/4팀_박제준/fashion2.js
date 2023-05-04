@@ -44,3 +44,13 @@ img2.addEventListener('mouseover', showNewImg2);
 img2.addEventListener('mouseout', showOriginalImg2);
 img3.addEventListener('mouseover', showNewImg3);
 img3.addEventListener('mouseout', showOrginalImg3);
+
+const combinationLInk = document.getElementById('combination-link');
+combinationLInk.addEventListener('click', function() {
+    const answer = confirm('조합하시겠습니까?');
+    if(answer) {
+        alert('넹');
+    } else {
+        alert('아니요..');
+    }
+});
