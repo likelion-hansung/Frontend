@@ -51,10 +51,6 @@ nav div{
     max-width: 60rem;
 }
 
-.navContainer div:hover{
-    color: rgb(67, 73, 184);
-    cursor: pointer;
-}
 
 /*section*/
 
