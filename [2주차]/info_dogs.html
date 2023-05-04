@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>반려동물 정보 서비스</title>
+    <title>반려동물 정보 - 강아지</title>
     <link rel="stylesheet" href="./style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet"></head>
+    <script defer src = "event2.js"></script>
     <script defer src = "event.js"></script>
+
+</head>
 <body>
     <header>
         <div id="login">LOGIN</div>
@@ -26,35 +29,53 @@
     </header>
     <nav>
         <div class="navContainer">
-            <div><strong>홈</strong></div>
+            <div id="home"><strong>홈</strong></div>
             <div id ="pets"><strong>반려동물</strong></div>
             <div><strong>이슈</strong></div>
             <div><strong>관련 정책</strong></div>
         </div>
     </nav>
-<section class="section1">
-    <div>
-        <p> 반려동물 천만시대 ! <br>반려동물에 대한 지식을 쌓는 사이트입니다:&#41; </p>
+    <hr>
+    <div id="nav_pets">
+        <ul id="li_pets">
+            <li>강아지</li>
+            <li>냥이</li>
+        </ul>
     </div>
-    <div id="photo">
-        <img src="photo/dog.jpg">
-        <img src="photo/dog2.jpg">
+    <hr>
+    <div class="search">
+        <form>
+            <input type="text" size="40">
+            <button>검색 </button>
+        </form>
     </div>
-</section> 
-<section class="section2">
-    <div id="today_info"><strong>오늘의 깨알 지식</strong></div>
-    <div class="right">
-        <div id="question"><strong>강아지가 주인의 얼굴을 햝는 이유는?</strong></div>
-        <div id="answer">
-          강아지가 주인의 얼굴은 물론 사람들에게 마구 햝는 행동을 많이 보시지 않았나요?<br>
-          그 이유는 바로! 애정을 마구마구 표현하는 것이랍니다.<br>
-          자신이 새끼일 때, 엄마가 얼굴을 핥아준 것을 기억하여 지금 매우 행복함을 주인에게 알리는 건데요.<br>
-          얼굴 핥는다고 바로 못하게 저지하면 애기가 시무룩할 수도 있으니 같이 행복함을 표현해주세요
-          <br><span>출처: https://mypetlife.co.kr/450/</span>
-        </div>
-        <div class="click"><span>더 많은 지식을 쌓고싶다면 클릭!</span></div>
+    <div class = "infoDogs">
+        <ul class="info1">
+            <li id="golden">
+                <h2>골든 리트리버</h2>
+                <img class ="img_dog" src = "photo/golden.jpg" alt = "골든 리트리버">
+            </li>
+            <li>
+                <h2>닥스훈트</h2>
+                <img class ="img_dog" src = "photo/docs.jpg" alt = "닥스훈트">
+            </li>
+            <li>
+                <h2>비숑 프리제</h2>
+                <img class ="img_dog" src = "photo/bichon.jpg" alt = "비숑 프리제">    
+            </li>
+        </ul>
     </div>
-</section>
-    
+    <div class="hidden" id="info_golden">
+        <p>원산지: 영국</p>
+        <p>성격 : 친밀, 애정이 깊음, 얌전한 성격</p>
+        <p>추천 환경: 단독주택</p>
+        <form class="closeBtn">
+            <button>close</button>
+        </form>
+    </div>
+
+
+
+
 </body>
 </html>
