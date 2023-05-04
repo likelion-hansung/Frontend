@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>액티비티 플랫폼</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <header>
+        <img src="image/Activity.png">
+    </header>
+    <form id="form">
+        <input type="text" size="25px" placeholder="액티비티 혹은 장소를 찾아보세요">
+        <button type="submit" value="chat">검색하기</button>
+    </form>
+    <nav>
+        <div class="navContainer">
+            <div><strong>오늘의 핫플</strong></div>
+            <div><strong>AI 플래너</strong></div>
+            <div><strong>여행 지도</strong></div>
+            <div><strong>이벤트</strong></div>
+            <div><strong>예매 확인</strong></div>
+        </div>
+    </nav>
+    <section class="sec1">
+    </section>
+    <section class="sec2">
+        <div class="articleContainer">
+            
+            <div id="title"><p>&nbsp;&nbsp;&nbsp;오늘의 추천 핫플!♥!&nbsp;&nbsp;&nbsp;</p></div>
+            
+            <article>
+                <div>
+                    
+                    <img src="image/lotteworld.png" alt="핫플1"
+                    onmouseover="this.src='image/nightlotte.png'"
+                    onmouseout="this.src='image/lotteworld.png'">
+                    <p class="name">환상의 나라 롯데월드</p>
+                    <p class="explain">잠실 석촌호수 근처에 있으며 재밌는 놀이기구가 많아 국내에서 손꼽히는 놀이공원이다!</p>
+                    <div id="di"><p onclick="button1()">구매하기</p></div>
+                </div>
+            </article>
+            
+            <article>
+                <div>
+                    <img src="image/요트.png" alt="핫플2"
+                    onmouseover="this.src='image/nightboat.png'"
+                    onmouseout="this.src='image/요트.png'">
+                    <p class="name">부산 요트 투어</p>
+                    <p class="explain">부산 광안대교를 보며 신선한 바다 바람까지 즐길 수 있는 최적의 요트 투어이다!</p>
+                    <div id="di"><p onclick="button2()">구매하기</p></div>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img src="image/경복궁.png" alt="핫플3"
+                    onmouseover="this.src='image/밤경복궁.png'"
+                    onmouseout="this.src='image/경복궁.png'">
+                    <p class="name">경복궁</p>
+                    <p class="explain">우리나라의 전통적인 궁궐로 밤에 가면 더 반짝이는 경복궁을 관찰할 수 있다!</p>
+                    <div id="di"><p onclick="button3()">구매하기</p></div>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img src="image/패러글라이딩.png" alt="핫플4"
+                    onmouseover="this.src='image/패러2.png'"
+                    onmouseout="this.src='image/패러글라이딩.png'">
+                    <p class="name">패러글라이딩</p>
+                    <p class="explain">바람을 즐기며 하늘을 나는 기분을 낼 수 있는 최적의 액티비티이다!</p>
+                    <div id="di"><p onclick="button4()">구매하기</p></div>
+                </div>
+            </article>
+
+        </div>
+    
+    </section>
+    <section class="section3">
+        <div class="Clock">
+            <div id="Clockday">00/00/00</div>
+            <div id="Clock">00:00</div>
+        </div>
+    </section>
+
+    <footer id="ft">
+        <p>상호명(주) : ACTIVITY&nbsp;&nbsp; TEL:010-3823-2775&nbsp;&nbsp; 후원계좌 : 국민은행 50610201-426844&nbsp;&nbsp; 사업자명 : 이나경&nbsp;&nbsp;제휴문의 : lnk5324@naver.com </p>
+    <footer>
+</body>
+
+</html>
