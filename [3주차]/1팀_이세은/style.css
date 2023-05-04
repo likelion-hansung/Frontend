@@ -1,0 +1,192 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sunflower', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 5vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*nav*/
+
+nav{
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+nav div{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navContainer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navContainer{
+    max-width: 60rem;
+}
+
+.navContainer div:hover{
+    color: rgb(67, 73, 184);
+    cursor: pointer;
+}
+
+/*section*/
+
+.sectionContainer{
+    background-color: #C9EEFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/*section1*/
+
+.sec1{
+    background-color: #C9EEFF;
+}
+
+.sec1 div{
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec1 div img{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.sec1 div .year{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 204, 204);
+    margin-bottom: 10px;
+    margin-top:0;
+}
+
+.sec1 div .name{
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.sec1 div .k_name{
+    font-size: 30px;
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.sec1 div .birthday span{
+    border: 2px solid rgb(87, 151, 203);
+    border-radius: 10%;
+    display: inline-block;
+    padding: 0.2em 2.0em;
+}
+
+.sec1 div .birthday{
+    margin-bottom: 30;
+}
+
+.sec1 div .explain{
+    border: 0.8px solid rgb(87, 151, 203);
+    border-radius: 0.3%;
+    display: inline-block;
+    padding: 0.2em 0.2em;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/*section2*/
+
+
+.sec2{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 80rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.articleContainer{
+    display: flex;
+}
+
+.articleContainer article{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.articleContainer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 14rem;
+}
+
+.articleContainer img{
+    width: 18rem;
+    height: 20rem;
+}
+
+.articleContainer .name{
+    font-weight: bold;
+}
+
+.articleContainer .explain{
+    font-size: 0.8rem;
+}
+
+.articleContainer div:hover{
+    opacity: 0.5;
+    color: rgb(251, 162, 177);
+    font-weight: bolder;
+}
+
+/*footer*/
+
+footer{
+    text-align: left;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: #686868;
+}
+
