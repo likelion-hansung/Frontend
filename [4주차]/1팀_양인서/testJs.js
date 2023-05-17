@@ -221,7 +221,7 @@ function replay(){
 }
 
 function copy() {
-    var url = 'https://sheepyis.github.io/test/test.html';
+    var url = 'https://sheepyis.github.io/Frontend/[4주차]/1팀_양인서/test.html';
     var textarea = document.createElement("textarea");
     document.body.appendChild(textarea);
     textarea.value = url;
