@@ -93,83 +93,83 @@ var q={
 
 var result={
     "ISTJ": {"mbti":"감성에 취한 지휘자", 
-            "photo": "<img src='./image/ISTJ.jpg'>",
-            "music": "<img src='./image/ISTJ_music.jpg'>"
+            "photo": "<img src='./image/ISTJ.JPG'>",
+            "music": "<img src='./image/ISTJ_music.JPG'>"
         },
 
     "ISFJ": {"mbti":"무대를 빛내는 가수",
-            "photo": "<img src='./image/ISFJ.jpg'>",
-            "music": "<img src='./image/ISFJ_music.jpg'>"
+            "photo": "<img src='./image/ISFJ.JPG'>",
+            "music": "<img src='./image/ISFJ_music.JPG'>"
         },
 
     "INFJ": {"mbti":"자신감있고 당당한 댄서",
-            "photo": "<img src='./image/INFJ.jpg'>",
-            "music": "<img src='./image/INFJ_music.jpg'>"
+            "photo": "<img src='./image/INFJ.JPG'>",
+            "music": "<img src='./image/INFJ_music.JPG'>"
         },
 
     "INTJ": {"mbti":"다재다능한 음악 감독",
-            "photo": "<img src='./image/INTJ.jpg'>",
-            "music": "<img src='./image/INTJ_music.jpg'>"
+            "photo": "<img src='./image/INTJ.JPG'>",
+            "music": "<img src='./image/INTJ_music.JPG'>"
         },
 
     "ISTP": {"mbti":"개성이 뚜렷한 편곡가",
-            "photo": "<img src='./image/ISTP.jpg'>",
-            "music": "<img src='./image/ISTP_music.jpg'>"
+            "photo": "<img src='./image/ISTP.JPG'>",
+            "music": "<img src='./image/ISTP_music.JPG'>"
         },
 
     "ISFP": {"mbti":"예술적 감정을 지닌 작곡가",
-            "photo": "<img src='./image/ISFP.jpg'>",
-            "music": "<img src='./image/ISFP_music.jpg'>"
+            "photo": "<img src='./image/ISFP.JPG'>",
+            "music": "<img src='./image/ISFP_music.JPG'>"
         },
 
     "INFP": {"mbti":"곡의 분위기를 살리는 성악가",
-            "photo": "<img src='./image/INFP.jpg'>",
-            "music": "<img src='./image/INFP_music.jpg'>"
+            "photo": "<img src='./image/INFP.JPG'>",
+            "music": "<img src='./image/INFP_music.JPG'>"
         },
 
     "INTP": {"mbti":"의견을 수렴하는 음반 기획자",
-            "photo": "<img src='./image/INTP.jpg'>",
-            "music": "<img src='./image/INTP_music.jpg'>"
+            "photo": "<img src='./image/INTP.JPG'>",
+            "music": "<img src='./image/INTP_music.JPG'>"
         },
 
     "ESTP": {"mbti":"때로는 비판적인 음악 평론가",
-            "photo": "<img src='./image/ESTP.jpg'>",
-            "music": "<img src='./image/ESTP_music.jpg'>"
+            "photo": "<img src='./image/ESTP.JPG'>",
+            "music": "<img src='./image/ESTP_music.JPG'>"
         },
 
     "ESFP": {"mbti":"상황파악에 눈치빠른 음향 기사",
-            "photo": "<img src='./image/ESFP.jpg'>",
-            "music": "<img src='./image/ESFP_music.jpg'>"
+            "photo": "<img src='./image/ESFP.JPG'>",
+            "music": "<img src='./image/ESFP_music.JPG'>"
         },
 
     "ENFP": {"mbti":"마음을 공감하는 음악 치료사",
-            "photo": "<img src='./image/ENFP.jpg'>",
-            "music": "<img src='./image/ENFP_music.jpg'>"
+            "photo": "<img src='./image/ENFP.JPG'>",
+            "music": "<img src='./image/ENFP_music.JPG'>"
         },
 
     "ENTP": {"mbti":"다각적 시각인 음악 선생님",
-            "photo": "<img src='./image/ENTP.jpg'>",
-            "music": "<img src='./image/ENTP_music.jpg'>"
+            "photo": "<img src='./image/ENTP.JPG'>",
+            "music": "<img src='./image/ENTP_music.JPG'>"
         },
 
     "ESTJ": {"mbti":"전통까지 사랑하는 음악 학자",
-            "photo": "<img src='./image/ESTJ.jpg'>",
-            "music": "<img src='./image/ESTJ_music.jpg'>"
+            "photo": "<img src='./image/ESTJ.JPG'>",
+            "music": "<img src='./image/ESTJ_music.JPG'>"
         },
 
     "ESFJ": {"mbti":"준비성이 철저한 행사 음악 담당자",
-            "photo": "<img src='./image/ESFJ.jpg'>",
-            "music": "<img src='./image/ESFJ_music.jpg'>"
+            "photo": "<img src='./image/ESFJ.JPG'>",
+            "music": "<img src='./image/ESFJ_music.JPG'>"
         },
 
     "ENFJ": {"mbti":"즉흥적이고 새로운 DJ",
-            "photo": "<img src='./image/ENFJ.jpg'>",
-            "music": "<img src='./image/ENFJ_music.jpg'>"
+            "photo": "<img src='./image/ENFJ.JPG'>",
+            "music": "<img src='./image/ENFJ_music.JPG'>"
         },
 
     "ENTJ": {"mbti":"손으로 곡을 표현하는 연주가",
-            "photo": "<img src='./image/ENTJ.jpg'>",
-            "music": "<img src='./image/ENTJ_music.jpg'>"
+            "photo": "<img src='./image/ENTJ.JPG'>",
+            "music": "<img src='./image/ENTJ_music.JPG'>"
         }
 }
 
