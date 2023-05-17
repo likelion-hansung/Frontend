@@ -221,7 +221,7 @@ function replay(){
 }
 
 function copy() {
-    var url = '';
+    var url = 'https://sheepyis.github.io/test/test.html';
     var textarea = document.createElement("textarea");
     document.body.appendChild(textarea);
     textarea.value = url;
