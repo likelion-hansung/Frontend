@@ -1,85 +1,101 @@
 * {
-    font-family: 'Gowun Dodum', sans-serif;
-    font-weight: bold;
+    font-family: 'Gaegu', cursive;
 }
 
+.icon {
+    width: 200px;
+    height: 200px;
+}
+#head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#siteName {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
 nav {
-    display: flex;
+    display:flex;
+    height: 7vh;
     justify-content: center;
-    height: 80px;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    justify-content: space-between;
-    width: 80%;
-}
-
-nav li {
-    margin: 0 10px;
-    text-align: center;
-    width: 10%;
-    text-align: center;
-    font-size: 18px;
-}
-
-nav li a {
-    color: black;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-nav li a:hover {
-    color: rgb(91, 91, 91);
-}
-
-.image {
-    width: 1440px;
-    height: 1024px;
-    position: relative;
-    z-index: -1;
-}
-
-.image img {
-    width: 100%;
-    height: auto;
-    opacity: 0.5;
-    object-fit: cover;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    flex-wrap: wrap;
+    align-content: space-evenly;
 }
+nav div {
+    flex-grow:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
 
-button {
-    border-radius: 10px;
+}
+nav div strong:hover {
     cursor: pointer;
+    color:rgb(236, 144, 31);
+    border-bottom: solid rgb(236, 144, 31);
 }
-
-.button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.navContainer {
+    max-width: 100rem;
 }
-
-
-.button button {
-    background-color: rgba(27, 120, 183, 0.5);
-    color: white;
-    border-radius: 10px;
-    width: 150px;
-    height: 50px;
+.section1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px dashed black;
-    margin: auto;
+    background-color: rgb(236, 170, 91);
+
+
+}
+.section1 p {
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 40px;
+    margin-left: 150px;
+}
+.section1 img {
+    width: 400px;
+    height:450px;
+}
+#photo {
+    display: flex;
+    position: relative;
+    padding-left: 60px;
+
+}
+#today_info {
+    float: left;
+    margin-right: 20px;
+    margin-right: 100px;
+    background-color: rgb(236, 170, 91);
+    border-radius: 50%;
+    padding: 50px;
+    font-size: 25px;
+}
+div:not(#today_info) {
+    overflow: hidden;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#question {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+#answer {
+    font-size: 20px;
+}
+.right span {
+    font-size: 15px;
+}
+.click span{
+    background-color: rgb(245, 209, 164);
+    margin-left: 680px;
+    font-size: 20px;
+}
+.click span:hover {
+    cursor: pointer;
 }
