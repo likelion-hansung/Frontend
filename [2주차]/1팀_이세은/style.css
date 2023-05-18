@@ -1,6 +1,9 @@
+
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Sunflower', sans-serif;
 }
 
 a {
@@ -129,4 +132,61 @@ nav div{
 }
 
 /*section2*/
+
+
+.sec2{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 80rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.articleContainer{
+    display: flex;
+}
+
+.articleContainer article{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.articleContainer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 14rem;
+}
+
+.articleContainer img{
+    width: 18rem;
+    height: 20rem;
+}
+
+.articleContainer .name{
+    font-weight: bold;
+}
+
+.articleContainer .explain{
+    font-size: 0.8rem;
+}
+
+.articleContainer div:hover{
+    opacity: 0.5;
+    color: rgb(251, 162, 177);
+    font-weight: bolder;
+}
+
+/*footer*/
+
+footer{
+    text-align: left;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: #686868;
+}
 
