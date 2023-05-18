@@ -135,7 +135,7 @@
     position: relative;
 }
 
-.게시판{
+.board{
     display: flex;
     padding: 0 35px;
     align-items: center;
@@ -162,3 +162,34 @@
 .exercise i :last-child{
     left:-23px;
 }
+
+.ticket-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ticket-list{
+    width:300px;
+    height: 350px;
+    margin:30px;
+    background-color: #ffffcc!important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    border:1px solid grey;
+    padding: 30px;
+    color: black;
+    position: relative;
+    overflow: hidden;
+}
+.ticket-header{
+    color:black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0px;
+    
+
+}
+
