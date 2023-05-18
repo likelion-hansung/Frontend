@@ -219,15 +219,3 @@ $("#B").click(function(){
 function replay(){
     location.reload();
 }
-
-function copy() {
-    var url = 'https://sheepyis.github.io/Frontend/[4주차]/1팀_양인서/test.html';
-    var textarea = document.createElement("textarea");
-    document.body.appendChild(textarea);
-    textarea.value = url;
-    textarea.select();
-    document.execCommand("copy");
-    document.body.removeChild(textarea);
-
-    alert("클립보드에 복사되었습니다.")
-}

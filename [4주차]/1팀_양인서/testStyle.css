@@ -74,6 +74,30 @@ width:300px;
     margin-top: 8vh;
 }
 
+#result>.resultImage{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom:10%;
+}
+
+#result>.resultImage>#photo{
+    width:50%;
+}
+
+#result>.resultImage>#photo>img{
+    width:100%;
+}
+
+#result>.resultImage>#music{
+    width:50%;
+}
+
+#result>.resultImage>#music>img{
+    margin-top:10%;
+    width:100%;
+}
+
 #result>.result-btn{
     display:flex;
     flex-direction: column;
