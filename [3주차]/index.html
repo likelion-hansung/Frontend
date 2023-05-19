@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>사용자의 롤링페이퍼</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="seoul.html">서울</a></li>
+            <li><a href="gwangju.html">광주</a></li>
+            <li><a href="busan.html">부산</a></li>
+            <li><a href="jeju.html">제주</a></li>
+            <li><a href="gyeongju.html">경주</a></li>
+            <li><a href="chuncheon.html">춘천</a></li>
+            <li><a href="yeosu.html">여수</a></li>
+            <li><a href="jeonju.html">전주</a></li>
+            <li><a href="gangneung.html">강릉</a></li>
+            <li><a href="incheon.html">인천</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="button">
+            <button onclick="openUrlDialog()">어디로 갈까요?</button>
+            <dialog id="urlDialog">
+                <form onsubmit="openUrl(event)">
+                    <label>
+                        어디로 갈까요?
+                        <input type="text" id="urlInput" name="urlInput" />
+                    </label>
+                    <menu>
+                        <button type="submit" id="submitUrl">이동</button>
+                        <button type="button" id="cancelUrl">취소</button>
+                    </menu>
+                </form>
+            </dialog>
+        </div>
+        <div class="image">
+            <img id="backgroundImage" src="./jeju.png" alt="Jeju" />
+        </div>
+    </section>
+    <script>
+        var images = ["./jeju.png", "./kj.png", "./seoul.png"];
+        var index = 0;
+        setInterval(function () {
+            index++;
+            if (index >= images.length) {
+                index = 0;
+            }
+            document.getElementById("backgroundImage").src = images[index];
+        }, 3000);
+
+        function openUrlDialog() {
+            var urlDialog = document.getElementById("urlDialog");
+            var submitUrlButton = document.getElementById("submitUrl");
+            var cancelUrlButton = document.getElementById("cancelUrl");
+            var urlInput = document.getElementById("urlInput");
+
+            submitUrlButton.addEventListener("click", function (event) {
+                event.preventDefault();
+                var url = "#" + urlInput.value;
+                var element = document.querySelector(url);
+                if (element !== null) {
+                    element.scrollIntoView({ behavior: "smooth" });
+                }
+                urlDialog.close();
+                submitUrlButton.removeEventListener("click", arguments.callee);
+                cancelUrlButton.removeEventListener("click", arguments.callee);
+            });
+
+            cancelUrlButton.addEventListener("click", function (event) {
+                event.preventDefault();
+                urlDialog.close();
+                submitUrlButton.removeEventListener("click", arguments.callee);
+                cancelUrlButton.removeEventListener("click", arguments.callee);
+            });
+
+            urlDialog.showModal();
+        }
+
+        function openUrl(event) {
+            event.preventDefault();
+            var url = document.getElementById("urlInput").value.trim().toLowerCase();
+            if (url === "서울") {
+                location.href = "seoul.html";
+            } else if (url === "광주") {
+                location.href = "gwangju.html";
+            } else if (url === "부산") {
+                location.href = "busan.html";
+            } else if (url === "제주") {
+                location.href = "jeju.html";
+            } else if (url === "경주") {
+                location.href = "gyeongju.html";
+            } else if (url === "춘천") {
+                location.href = "chuncheon.html";
+            } else if (url === "여수") {
+                location.href = "yeosu.html";
+            } else if (url === "전주") {
+                location.href = "jeonju.html";
+            } else if (url === "강릉") {
+                location.href = "gangneung.html";
+            } else if (url === "인천") {
+                location.href = "incheon.html";
+            } else {
+                location.href = "index.html";
+            }
+            document.getElementById("urlDialog").close();
+        }
+
+
+    </script>
+</body>
+
+</html>

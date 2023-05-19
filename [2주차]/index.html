@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사용자의 롤링페이퍼</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">서울</a></li>
+            <li><a href="">광주</a></li>
+            <li><a href="">부산</a></li>
+            <li><a href="">제주</a></li>
+            <li><a href="">경주</a></li>
+            <li><a href="">춘천</a></li>
+            <li><a href="">여수</a></li>
+            <li><a href="">전주</a></li>
+            <li><a href="">강릉</a></li>
+            <li><a href="">인천</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="button">
+            <button onclick="window.open('새로운페이지URL', '_blank');">
+                <p>어디로 갈까요?</p>
+            </button>
+        </div>
+        <div class="image">
+            <img id="backgroundImage" src="./jeju.png" alt="Jeju">
+        </div>
+    </section>
+    <script>
+        var images = ['./jeju.png', './kj.png', './seoul.png'];
+        var index = 0;
+        setInterval(function () {
+            index++;
+            if (index >= images.length) {
+                index = 0;
+            }
+            document.getElementById("backgroundImage").src = images[index];
+        }, 3000);
+    </script>
+</body>
+
+</html>
