@@ -7,51 +7,6 @@ body{
     padding:0;
 }
 
-
-#form{
-    margin-left: 1350px;
-}
-
-#form > input{
-    border-radius: 10px;
-    border: none;
-    background-color: rgb(242, 241, 241);
-    height: 30px;
-    width:250px;
-}
-
-#form > button{
-    height: 30px;
-    width: 80px;
-    background-color: rgb(235, 232, 232);
-    border-radius: 5px;
-    border: transparent;
-}
-
-#form > button:hover{
-    background-color: rgb(191, 191, 191);
-}
-
-.Clock {
-    width: 160px;
-    height: 80px;
-    text-align: center;
-    color:rgb(232, 182, 3);
-    background-color: white;
-    padding-top: 10px;
-    margin-left:1840px;
-}
-
-#Clock {
-    color: gray;
-    font-size: 30px;
-}
-#Clockday {
-    color: gray;
-    font-size:20px;
-    margin-left:15px;
-}
-
 header{
     display:flex;
     height:12vh;
@@ -64,8 +19,6 @@ header{
 header>img{
     width:250px;
     height:fit-content;
-    margin-left:20px;
-    margin-top:40px;
 }
 
 nav{
@@ -95,7 +48,7 @@ nav div{
 .sec1{
     width:100vw;
     height:45vh;
-    background: url(./image/banner3.png) no-repeat 50% 50% / cover;
+    background: url(./image/banner.png) no-repeat 50% 50% / cover;
 }
 
 .sec2{
@@ -178,7 +131,6 @@ nav div{
     font-weight:bold;
     font-size:larger;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-top:10px;
     color:rgb(242, 13, 127);
     -webkit-animation:blink 1.5s ease-in-out infinite alternate;
   -moz-animation:blink 1.5s ease-in-out infinite alternate;
@@ -208,7 +160,7 @@ nav div{
 
 #di p:hover{
     cursor:grab;
-   
+    color:red;
 }
 
 #ft p{
