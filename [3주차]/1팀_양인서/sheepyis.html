@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sheepyis.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d4b61b3d04.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/sheepyis.js"></script>
+    <title>plan it</title>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            plan it <i class="fa-solid fa-clock fa-xs" style="color: #000000;"></i>
+            <div class="contact">
+                <a href="./news.html">
+                <i class="fa-regular fa-bell fa-xs" style="color: #000000;"></i>
+                </a>
+                &nbsp;&nbsp;
+                <a href="./message.html">
+                <i class="fa-regular fa-paper-plane fa-xs" style="color: #000000;"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="user">
+            <div class="sheepyis">
+                <a href="./sheepyis.html">
+                    <img src="./image/sheepyis.jpg">
+                </a>
+                <div class="username">
+                    me
+                </div>
+            </div>
+            <div class="user1">
+                <a href="./user1.html">
+                    <img src="./image/user1.png">
+                </a>
+                <div class="username">
+                    user1
+                </div>
+            </div>
+            <div class="user2">
+                <a href="./user2.html">
+                    <img src="./image/user2.png">
+                </a>
+                <div class="username">
+                    user2
+                </div>
+            </div>
+            <div class="search">
+                <a href="./search.html">
+                <i class="fa-solid fa-circle-chevron-right fa-2xl" style="color: grey;"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="sec1">
+        <div class="profile">
+            <div class="image">
+                <img src="./image/sheepyis.jpg">
+            </div>
+            <div class="explain">
+                <span style="font-size:40px; font-weight:bold">양양서</span><br>
+                천방지축 얼렁뚱땅 빙글빙글 돌아가는 인서의 하루~
+            </div>
+        </div>
+    </section>
+
+    <section class="sec2">
+        <div class="month">
+            <div class="monthbar">
+                <div class="today">
+                    2023년 4월
+                </div>
+                <div class="checkcount">
+                    <i class="fa-solid fa-check" style="color: #ffffff;"></i>&nbsp;0
+                </div>
+                <div class="heartcount" onclick="countPlus()">
+                    <i class="fa-solid fa-heart" style="color: #ffffff;"></i>&nbsp;
+                    <class id="result">0</class>
+                </div>
+                <div class="past">
+                    <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                </div>
+                <div class="future">
+                    <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="monthday">
+            <div class="monthcontainer">
+                <div><strong><span style="color:red">일</span></strong></div>
+                <div><strong>월</strong></div>
+                <div><strong>화</strong></div>
+                <div><strong>수</strong></div>
+                <div><strong>목</strong></div>
+                <div><strong>금</strong></div>
+                <div><strong><span style="color:blue">토</span></strong></div>
+            </div>
+            <div class="week">
+                <div class="weekcontainer">
+                    <p>
+                        <div id="divOver3_26" onmouseover="mouseover3_26()" onmouseout="mouseout3_26()"><span style="color:red">26</span>
+                                <input type="text" id="inputList3_26" placeholder="할 일 입력" onKeypress="saveList3_26()">
+                                <div id="print3_26"></div>
+                        </div>
+                        <div id="divOver3_27" onmouseover="mouseover3_27()" onmouseout="mouseout3_27()">27
+                            <input type="text" id="inputList3_27" placeholder="할 일 입력" onKeypress="saveList3_27()">
+                            <div id="print3_27"></div>
+                        </div>
+                        <div id="divOver3_28" onmouseover="mouseover3_28()" onmouseout="mouseout3_28()">28
+                            <input type="text" id="inputList3_28" placeholder="할 일 입력" onKeypress="saveList3_28()">
+                            <div id="print3_28"></div>
+                        </div>
+                        <div id="divOver3_29" onmouseover="mouseover3_29()" onmouseout="mouseout3_29()">29
+                            <input type="text" id="inputList3_29" placeholder="할 일 입력" onKeypress="saveList3_29()">
+                            <div id="print3_29"></div>
+                        </div>
+                        <div id="divOver3_30" onmouseover="mouseover3_30()" onmouseout="mouseout3_30()">30
+                            <input type="text" id="inputList3_30" placeholder="할 일 입력" onKeypress="saveList3_30()">
+                            <div id="print3_30"></div>
+                        </div>
+                        <div id="divOver3_31" onmouseover="mouseover3_31()" onmouseout="mouseout3_31()">31
+                            <input type="text" id="inputList3_31" placeholder="할 일 입력" onKeypress="saveList3_31()">
+                            <div id="print3_31"></div>
+                        </div>
+                        <div id="divOver4_1" onmouseover="mouseover4_1()" onmouseout="mouseout4_1()"><span style="color:blue">1</span>
+                            <input type="text" id="inputList4_1" placeholder="할 일 입력" onKeypress="saveList4_1()">
+                            <div id="print4_1"></div>
+                        </div>
+                    </p>
+                    <p>
+                        <div id="divOver4_2" onmouseover="mouseover4_2()" onmouseout="mouseout4_2()"><span style="color:red">2</span>
+                            <input type="text" id="inputList4_2" placeholder="할 일 입력" onKeypress="saveList4_2()">
+                            <div id="print4_2"></div>
+                        </div>
+                        <div id="divOver4_3" onmouseover="mouseover4_3()" onmouseout="mouseout4_3()">3
+                            <input type="text" id="inputList4_3" placeholder="할 일 입력" onKeypress="saveList4_3()">
+                            <div id="print4_3"></div>
+                        </div>
+                        <div id="divOver4_4" onmouseover="mouseover4_4()" onmouseout="mouseout4_4()">4
+                            <input type="text" id="inputList4_4" placeholder="할 일 입력" onKeypress="saveList4_4()">
+                            <div id="print4_4"></div>
+                        </div>
+                        <div id="divOver4_5" onmouseover="mouseover4_5()" onmouseout="mouseout4_5()">5
+                            <input type="text" id="inputList4_5" placeholder="할 일 입력" onKeypress="saveList4_5()">
+                            <div id="print4_5"></div>
+                        </div>
+                        <div id="divOver4_6" onmouseover="mouseover4_6()" onmouseout="mouseout4_6()">6
+                            <input type="text" id="inputList4_6" placeholder="할 일 입력" onKeypress="saveList4_6()">
+                            <div id="print4_6"></div>
+                        </div>
+                        <div id="divOver4_7" onmouseover="mouseover4_7()" onmouseout="mouseout4_7()">7
+                            <input type="text" id="inputList4_7" placeholder="할 일 입력" onKeypress="saveList4_7()">
+                            <div id="print4_7"></div>
+                        </div>
+                        <div id="divOver4_8" onmouseover="mouseover4_8()" onmouseout="mouseout4_8()"><span style="color:blue">8</span>
+                            <input type="text" id="inputList4_8" placeholder="할 일 입력" onKeypress="saveList4_8()">
+                            <div id="print4_8"></div>
+                        </div>
+                    </p>
+                    <p>
+                        <div id="divOver4_9" onmouseover="mouseover4_9()" onmouseout="mouseout4_9()"><span style="color:red">9</span>
+                            <input type="text" id="inputList4_9" placeholder="할 일 입력" onKeypress="saveList4_9()">
+                            <div id="print4_9"></div>
+                        </div>
+                        <div id="divOver4_10" onmouseover="mouseover4_10()" onmouseout="mouseout4_10()">10
+                            <input type="text" id="inputList4_10" placeholder="할 일 입력" onKeypress="saveList4_10()">
+                            <div id="print4_10"></div>
+                        </div>
+                        <div id="divOver4_11" onmouseover="mouseover4_11()" onmouseout="mouseout4_11()">11
+                            <input type="text" id="inputList4_11" placeholder="할 일 입력" onKeypress="saveList4_11()">
+                            <div id="print4_11"></div>
+                        </div>
+                        <div id="divOver4_12" onmouseover="mouseover4_12()" onmouseout="mouseout4_12()">12
+                            <input type="text" id="inputList4_12" placeholder="할 일 입력" onKeypress="saveList4_12()">
+                            <div id="print4_12"></div>
+                        </div>
+                        <div id="divOver4_13" onmouseover="mouseover4_13()" onmouseout="mouseout4_13()">13
+                            <input type="text" id="inputList4_13" placeholder="할 일 입력" onKeypress="saveList4_13()">
+                            <div id="print4_13"></div>
+                        </div>
+                        <div id="divOver4_14" onmouseover="mouseover4_14()" onmouseout="mouseout4_14()">14
+                            <input type="text" id="inputList4_14" placeholder="할 일 입력" onKeypress="saveList4_14()">
+                            <div id="print4_14"></div>
+                        </div>
+                        <div id="divOver4_15" onmouseover="mouseover4_15()" onmouseout="mouseout4_15()"><span style="color:blue">15</span>
+                            <input type="text" id="inputList4_15" placeholder="할 일 입력" onKeypress="saveList4_15()">
+                            <div id="print4_15"></div>
+                        </div>
+                    </p>
+                    <p>
+                        <div id="divOver4_16" onmouseover="mouseover4_16()" onmouseout="mouseout4_16()"><span style="color:red">16</span>
+                            <input type="text" id="inputList4_16" placeholder="할 일 입력" onKeypress="saveList4_16()">
+                            <div id="print4_16"></div>
+                        </div>
+                        <div id="divOver4_17" onmouseover="mouseover4_17()" onmouseout="mouseout4_17()">17
+                            <input type="text" id="inputList4_17" placeholder="할 일 입력" onKeypress="saveList4_17()">
+                            <div id="print4_17"></div>
+                        </div>
+                        <div id="divOver4_18" onmouseover="mouseover4_18()" onmouseout="mouseout4_18()">18
+                            <input type="text" id="inputList4_18" placeholder="할 일 입력" onKeypress="saveList4_18()">
+                            <div id="print4_18"></div>
+                        </div>
+                        <div id="divOver4_19" onmouseover="mouseover4_19()" onmouseout="mouseout4_19()">19
+                            <input type="text" id="inputList4_19" placeholder="할 일 입력" onKeypress="saveList4_19()">
+                            <div id="print4_19"></div>
+                        </div>
+                        <div id="divOver4_20" onmouseover="mouseover4_20()" onmouseout="mouseout4_20()">20
+                            <input type="text" id="inputList4_20" placeholder="할 일 입력" onKeypress="saveList4_20()">
+                            <div id="print4_20"></div>
+                        </div>
+                        <div id="divOver4_21" onmouseover="mouseover4_21()" onmouseout="mouseout4_21()">21
+                            <input type="text" id="inputList4_21" placeholder="할 일 입력" onKeypress="saveList4_21()">
+                            <div id="print4_21"></div>
+                        </div>
+                        <div id="divOver4_22" onmouseover="mouseover4_22()" onmouseout="mouseout4_22()"><span style="color:blue">22</span>
+                            <input type="text" id="inputList4_22" placeholder="할 일 입력" onKeypress="saveList4_22()">
+                            <div id="print4_22"></div>
+                        </div>
+                    </p>
+                    <p>
+                        <div id="divOver4_23" onmouseover="mouseover4_23()" onmouseout="mouseout4_23()"><span style="color:red">23</span>
+                            <input type="text" id="inputList4_23" placeholder="할 일 입력" onKeypress="saveList4_23()">
+                            <div id="print4_23"></div>
+                        </div>
+                        <div id="divOver4_24" onmouseover="mouseover4_24()" onmouseout="mouseout4_24()">24
+                            <input type="text" id="inputList4_24" placeholder="할 일 입력" onKeypress="saveList4_24()">
+                            <div id="print4_24"></div>
+                        </div>
+                        <div id="divOver4_25" onmouseover="mouseover4_25()" onmouseout="mouseout4_25()">25
+                            <input type="text" id="inputList4_25" placeholder="할 일 입력" onKeypress="saveList4_25()">
+                            <div id="print4_25"></div>
+                        </div>
+                        <div id="divOver4_26" onmouseover="mouseover4_26()" onmouseout="mouseout4_26()">26
+                            <input type="text" id="inputList4_26" placeholder="할 일 입력" onKeypress="saveList4_26()">
+                            <div id="print4_26"></div>
+                        </div>
+                        <div id="divOver4_27" onmouseover="mouseover4_27()" onmouseout="mouseout4_27()">27
+                            <input type="text" id="inputList4_27" placeholder="할 일 입력" onKeypress="saveList4_27()">
+                            <div id="print4_27"></div>
+                        </div>
+                        <div id="divOver4_28" onmouseover="mouseover4_28()" onmouseout="mouseout4_28()">28
+                            <input type="text" id="inputList4_28" placeholder="할 일 입력" onKeypress="saveList4_28()">
+                            <div id="print4_28"></div>
+                        </div>
+                        <div id="divOver4_29" onmouseover="mouseover4_29()" onmouseout="mouseout4_29()"><span style="color:blue">29</span>
+                            <input type="text" id="inputList4_29" placeholder="할 일 입력" onKeypress="saveList4_29()">
+                            <div id="print4_29"></div>
+                        </div>
+                    </p>
+                    <p>
+                        <div id="divOver4_30" onmouseover="mouseover4_30()" onmouseout="mouseout4_30()"><span style="color:red">30</span>
+                            <input type="text" id="inputList4_30" placeholder="할 일 입력" onKeypress="saveList4_30()">
+                            <div id="print4_30"></div>
+                        </div>
+                        <div id="divOver5_1" onmouseover="mouseover5_1()" onmouseout="mouseout5_1()">1
+                            <input type="text" id="inputList5_1" placeholder="할 일 입력" onKeypress="saveList5_1()">
+                            <div id="print5_1"></div>
+                        </div>
+                        <div id="divOver5_2" onmouseover="mouseover5_2()" onmouseout="mouseout5_2()">2
+                            <input type="text" id="inputList5_2" placeholder="할 일 입력" onKeypress="saveList5_2()">
+                            <div id="print5_2"></div>
+                        </div>
+                        <div id="divOver5_3" onmouseover="mouseover5_3()" onmouseout="mouseout5_3()">3
+                            <input type="text" id="inputList5_3" placeholder="할 일 입력" onKeypress="saveList5_3()">
+                            <div id="print5_3"></div>
+                        </div>
+                        <div id="divOver5_4" onmouseover="mouseover5_4()" onmouseout="mouseout5_4()">4
+                            <input type="text" id="inputList5_4" placeholder="할 일 입력" onKeypress="saveList5_4()">
+                            <div id="print5_4"></div>
+                        </div>
+                        <div id="divOver5_5" onmouseover="mouseover5_5()" onmouseout="mouseout5_5()">5
+                            <input type="text" id="inputList5_5" placeholder="할 일 입력" onKeypress="saveList5_5()">
+                            <div id="print5_5"></div>
+                        </div>
+                        <div id="divOver5_6" onmouseover="mouseover5_6()" onmouseout="mouseout5_6()"><span style="color:blue">6</span>
+                            <input type="text" id="inputList5_6" placeholder="할 일 입력" onKeypress="saveList5_6()">
+                            <div id="print5_6"></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerContainer">
+            <div><a href="sheepyis.html"><i class="fa-solid fa-house-user fa-xl" style="color: #000000;"></i></a></div>
+            <div><a href="compass.html"><i class="fa-solid fa-compass fa-xl" style="color:#000000;"></i></a></div>
+            <div><a href="shop.html"><i class="fa-solid fa-store fa-xl" style="color: #000000;"></i></a></div>
+    </footer>
+</body>
+</html>

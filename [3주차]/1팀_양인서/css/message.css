@@ -1,0 +1,55 @@
+header{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:40px;
+    color:darkblue;
+    justify-content:center;
+    align-items:center;
+}
+
+header>.profile{
+    margin-left:5%;
+    margin-top:150px;
+    display:flex;
+}
+
+header>.profile>img{
+    width:70px;
+    height:70px;
+    border-radius:70%;
+    border:3px solid darkblue;
+}
+
+header>hr{
+    width:90%;
+    height:4px;
+    background-color:darkblue;
+}
+
+.message{
+    justify-content:center;
+    align-items:center;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+}
+
+.message>hr{
+    margin-left:5%;
+    width:70%;
+    height:2px;
+    background-color:darkblue;
+}
+
+.message>.user1{
+    margin-left:5%;
+    display:flex;
+}
+
+.message>.user2{
+    margin-left:5%;
+    display:flex;
+}
+
+.message>.group{
+    margin-left:5%;
+    display:flex;
+}
