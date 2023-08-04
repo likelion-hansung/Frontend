@@ -1,0 +1,228 @@
+.title{
+    font-size:40px;
+    font-family: 'DynaPuff', cursive;
+    margin-left:3%;
+    margin-top:30px;
+    opacity:0.5;
+}
+
+.contact{
+    cursor:pointer;
+    float:right;
+    margin-right:3%;
+}
+
+.user{
+    margin-left:4%;
+    margin-top:20px;
+    font-size:20px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.sheepyis{
+    width:50px;
+    float:left;
+}
+
+.sheepyis>a>img{
+    width:50px; 
+    height:50px;
+    border-radius:70%;
+}
+
+.sheepyis>a>img:hover{
+    cursor:pointer;
+    border:3px solid grey;
+}
+
+.sheepyis>.username{
+    display:flex;
+    justify-content:center;
+}
+
+.user1{
+    width:50px;
+    float:left;
+    margin-left:1%;
+}
+
+.user1>a>img{
+    width:50px; 
+    height:50px;
+    border-radius:70%;
+}
+
+.user1>a>img:hover{
+    cursor:pointer;
+    border:3px solid grey;
+}
+
+.user1>.username{
+    display:flex;
+    justify-content:center;
+}
+
+.user2{
+    width:50px;
+    float:left;
+    margin-left:1%;
+}
+
+.user2>a>img{
+    width:50px; 
+    height:50px;
+    border-radius:70%;
+}
+
+.user2>a>img:hover{
+    cursor:pointer;
+    border:3px solid grey;
+}
+
+.user2>.username{
+    display:flex;
+    justify-content:center;
+}
+
+.search{
+    cursor:pointer;
+    float:right;
+    margin-right:4%;
+    margin-top:16px;
+}
+
+.profile{
+    cursor:pointer;
+    margin-left:5%;
+    margin-top:150px;
+    display:flex;
+}
+
+.profile>.image>img{
+    width:70px;
+    height:70px;
+    border-radius:70%;
+}
+
+.profile>.explain{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+    height:70px;
+    margin-left:20px;
+}
+
+.month{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.month>.monthbar{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+    height:30px;
+    width:95%;
+    margin-top:10px;
+    background-color:darkblue;
+    color:white;
+    opacity:0.8;
+    border-radius:30px;
+}
+
+.month>.monthbar>.today{
+    float:left;
+    margin-left:2%;
+}
+
+.month>.monthbar>.checkcount{
+    float:left;
+    margin-left:20px;
+}
+
+.month>.monthbar>.heartcount{
+    float:left;
+    margin-left:10px;
+    cursor:pointer;
+}
+
+.month>.monthbar>.past{
+    cursor:pointer;
+    float:right;
+    margin-right:3%;
+}
+
+.month>.monthbar>.future{
+    cursor:pointer;
+    float:right;
+    margin-right:2%;
+}
+
+.monthday>.monthcontainer{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.monthday>.monthcontainer div{
+    display:flex;
+    width:14rem;
+    flex-direction:column;
+    align-items:center;
+}
+
+.monthday>.week{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.monthday>.week>.weekcontainer{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+    margin-top:10px;
+    justify-content:center;
+    align-items:center;
+}
+
+.monthday>.week>.weekcontainer div{
+    display:flex;
+    width:14rem;
+    height:100px;
+    flex-direction:column;
+    align-items:center;
+    opacity:0.5;
+    float:left;
+}
+
+.monthday>.week>.weekcontainer div:hover{
+    cursor:pointer;
+    opacity:0.5;
+}
+
+.monthday>.week>.weekcontainer p{
+    clear:both;
+}
+
+footer{
+    opacity:0.5;
+    height:7vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+footer div{
+    flex-grow:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footerContainer{
+    cursor:pointer;
+    max-width:80rem;
+}
