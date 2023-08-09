@@ -1,0 +1,47 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about>.liContainer {
+    display: flex;
+    font-size: 1.2vw;
+    font-style: italic;
+}
+
+.about>.liContainer>li {
+    list-style-type: none;
+}
+
+.about>.liContainer>#li1 {
+    margin-right: 3vw;
+}
+
+.about>.liContainer>#li3 {
+    margin-left: 3vw;
+}
+
+.about>.liContainer>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.about>.liContainer>li>a:hover {
+    color: purple;
+}
+
+
+.about>.experiencetitle{
+    margin-top:5vw;
+    width:46vw;
+    height:22vw;
+    border:0.05vw solid white;
+    color:white;
+    font-size:1.2vw;
+    text-align:left;
+    padding-left:4vw;
+    padding-top:0.5vw;
+}
