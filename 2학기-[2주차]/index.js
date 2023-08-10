@@ -10,7 +10,7 @@ class SubComponent extends Component {
 // 상위 컴포넌트 정의
 class ParentComponent extends Component {
   render() {
-    const valueToSend = "안녕하세요, 하위 컴포넌트에 전달하는 값입니다.";
+    const valueToSend = "하위 컴포넌트 전달 값";
     
     return (
       <div>
