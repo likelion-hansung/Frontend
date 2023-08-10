@@ -1,18 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-function LandingPage() {
+function LandingPage(props) {
   return (
     <div>
+      <h1>{props.title}</h1>
       <ul>
-        <h1>해야할일</h1>
-        <li><Link to="/login">공경진 준비하기</Link></li>
-        <li><Link to="/register">해커톤 준비하기</Link></li>
-        
+        {props.tasks.map((task, index) => (
+          <li key={index}><Link to={task.path}>{task.name}</Link></li>
+        ))}
       </ul>
     </div>
-  )
+  );
 }
+
+
 
 export default LandingPage
 
