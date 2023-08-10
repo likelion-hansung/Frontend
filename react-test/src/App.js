@@ -6,15 +6,12 @@ import About from './pages/About';
 
 function App() {
   return (
-    <BrowserRouter>
-        <div className="App">
-          <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/about" element={<About/>}/>
-          </Routes>
-
-        </div>
-    </BrowserRouter>
+    <div className="App">
+      <Routes>
+        <Route path="/" element= {<Home name="정예빈"/>} />
+        <Route path="/about" element={<About/>} />
+      </Routes>
+    </div>
   );
 }
 
