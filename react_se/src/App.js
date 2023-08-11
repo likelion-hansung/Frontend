@@ -5,13 +5,18 @@ import LandingPage from "./pages/LandingPage/LandingPage"
 import LoginPage from "./pages/LoginPage/Login"
 import RegisterPage from "./pages/RegisterPage/RegisterPage"
 import { Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<LandingPage />} />
-      <Route path="/login" element={<LoginPage />} />
-      <Route path="/Register" element={<RegisterPage />} />
+    <div className="App">
+      <Routes>
+      <Route path="/" element= {<Home name="이세은"/>} />
+      <Route path="/about" element={<About/>} />
     </Routes>
+    </div>
+    
   );
 }
 
